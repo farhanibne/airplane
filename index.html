@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Airplanes.</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="dz.png" type="image/x-icon">
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+</head>
+<body>
+
+<div class="content">
+	<div class="loading">Loading</div>
+	<div class="trigger"></div>
+	<div class="section">
+		
+		<h1>Airplanes.</h1>
+		<h3>The beginners guide.</h3>
+		<p>You've probably forgotten what these are.</p>
+<!-- 		<div class="phonetic">/ ˈɛərˌpleɪn /</div> -->
+		<div class="scroll-cta">Scroll</div>
+	</div>
+	
+	<div class="section right">
+		<h2>They're kinda like buses...</h2>
+	</div>
+	
+	<div class="ground-container">
+		<div class="parallax ground"></div>
+		<div class="section right">
+			<h2>..except they leave the ground.</h2>
+			<p>Saaay what!?.</p>
+		</div>
+
+		<div class="section">
+			<h2>They fly through the sky.</h2>
+			<p>For realsies!</p>
+		</div>
+		
+		<div class="section right">
+			<h2>Defying all known physical laws.</h2>
+			<p>It's actual magic!</p>
+		</div>
+		<div class="parallax clouds"></div>
+	</div>
+	
+	<div class="blueprint">
+		<svg width="100%" height="100%" viewbox="0 0 100 100">
+			<line id="line-length" x1="10" y1="80" x2="90" y2="80" stroke-width="0.5"></line>
+			<path id="line-wingspan" d="M10 50, L40 35, M60 35 L90 50" stroke-width="0.5"></path>
+			<circle id="circle-phalange" cx="60" cy="60" r="15" fill="transparent" stroke-width="0.5"></circle>
+		</svg>
+		<div class="section dark ">
+			<h2>The facts and figures.</h2>
+			<p>Lets get into the nitty gritty...</p>
+		</div>
+		<div class="section dark length">
+			<h2>Length.</h2>
+			<p>Long.</p>
+		</div>
+		<div class="section dark wingspan">
+			<h2>Wing Span.</h2>
+			<p>I dunno, longer than a cat probably.</p>
+		</div>
+		<div class="section dark phalange">
+			<h2>Left Phalange</h2>
+			<p>Missing</p>
+		</div>
+		<div class="section dark">
+			<h2>Engines</h2>
+			<p>Turbine funtime</p>
+		</div>
+<!-- 		<div class="section"></div> -->
+	</div>
+	<div class="sunset">
+		<div class="section"></div>
+		<div class="section end">
+			
+		</div>
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://codepen.io/ste-vg/pen/zBVaZw.js'></script>
+<script src='https://unpkg.com/three@0.117.1/build/three.min.js'></script>
+<script src='https://unpkg.com/three@0.117.1/examples/js/loaders/OBJLoader.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
